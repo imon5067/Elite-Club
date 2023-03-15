@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is social network html5 template available in themeforest......" />
+        <meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+        <meta name="robots" content="index, follow" />
+        <title>elitepaint</title>
+
+        <!-- Stylesheets
+        ================================================= -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/ionicons.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+
+        <!--Favicon-->
+        <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+    </head>
+    <body>
+
+        <!-- Header
+        ================================================= -->
+        <header id="header">
+            <nav class="navbar navbar-default navbar-fixed-top menu">
+                <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html"><img src="elite/eliteccc.png" class="img-responsive" style="margin-top: -20px;"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right main-menu">
+                            <li class="dropdown">
+                                <a href="newsfeed.html">Home</a>
+                                <!--                                <ul class="dropdown-menu newsfeed-home">
+                                                                    <li><a href="index-2.html">Landing Page 1</a></li>
+                                                                    <li><a href="index-register.html">Landing Page 2</a></li>
+                                                                </ul>-->
+                            </li>
+                            <li class="dropdown">
+                                <a href	="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowledge <span><i class="fa fa-arrow-down" aria-hidden="true"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Images</a></li>
+                                    <li><a href="">Videos</a></li>
+
+
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="newsfeed.html" >Newsfeed</a>
+                                <!--                                <ul class="dropdown-menu newsfeed-home">
+                                                                    <li><a href="newsfeed.html">Newsfeed</a></li>
+                                                                    <li><a href="newsfeed-people-nearby.html">Poeple Nearly</a></li>
+                                                                    <li><a href="newsfeed-friends.html">My friends</a></li>
+                                                                    <li><a href="newsfeed-messages.html">Chatroom</a></li>
+                                                                    <li><a href="newsfeed-images.html">Images</a></li>
+                                                                    <li><a href="newsfeed-videos.html">Videos</a></li>
+                                                                </ul>-->
+                            </li>
+                            <li class="dropdown">
+                                <a href="../404.html">Timeline</a>
+                                <!--                                <ul class="dropdown-menu login">
+                                                                    <li><a href="timeline.html">Timeline</a></li>
+                                                                    <li><a href="timeline-about.html">Timeline About</a></li>
+                                                                    <li><a href="timeline-album.html">Timeline Album</a></li>
+                                                                    <li><a href="timeline-friends.html">Timeline Friends</a></li>
+                                                                    <li><a href="edit-profile-basic.html">Edit: Basic Info</a></li>
+                                                                    <li><a href="edit-profile-work-edu.html">Edit: Work</a></li>
+                                                                    <li><a href="edit-profile-interests.html">Edit: Interests</a></li>
+                                                                    <li><a href="edit-profile-settings.html">Account Settings</a></li>
+                                                                    <li><a href="edit-profile-password.html">Change Password</a></li>
+                                                                </ul>-->
+                            </li>
+
+
+                        </ul>
+                        <form class="navbar-form navbar-right hidden-sm">
+                            <div class="form-group">
+                                <i class="icon ion-android-search"></i>
+                                <input type="text" class="form-control" placeholder="Search friends, photos, videos">
+                            </div>
+                        </form>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <!--Header End-->
+
+        <div class="container">
+
+            <!-- Timeline
+            ================================================= -->
+            <div class="timeline">
+                <div class="timeline-cover">
+
+                    <!--Timeline Menu for Large Screens-->
+                    <div class="timeline-nav-bar hidden-sm hidden-xs">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="profile-info">
+                                    <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+                                    <h3>Hasib</h3>
+                                    <p class="text-muted">Creative Director</p>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <span id="fileselector">
+                                    <label class="btn btn-defaul" for="upload-file-selector">
+                                        <input id="upload-file-selector" type="file">
+                                        <span style="color: white;">Photo Upload</span>
+                                    </label>
+                                </span> 
+                                <ul class="follow-me list-inline">
+                                    <!--                                    <li>1,299 people following her</li>
+                                                                        <li><button class="btn-primary">Add Friend</button></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--Timeline Menu for Large Screens End-->
+
+                    <!--Timeline Menu for Small Screens-->
+                    <!--Timeline Menu for Small Screens End-->
+
+                </div>
+                <div id="page-contents">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                            <!--Edit Profile Menu-->
+                            <ul class="edit-menu">
+                                <li><i class="icon ion-ios-information-outline"></i><a href="edit-profile-basic.html">Basic Information</a></li>
+                                <li class="active"><i class="icon ion-ios-briefcase-outline"></i><a href="edit-profile-work-edu.html">Education and Work</a></li>
+
+                                <li><i class="icon ion-ios-settings"></i><a href="edit-profile-settings.html">Account Settings</a></li>
+                                <li><i class="icon ion-ios-locked-outline"></i><a href="edit-profile-password.html">Change Password</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7">
+
+
+
+
+
+                            <!-- Edit Work and Education
+                            ================================================= -->
+                            <div class="edit-profile-container">
+                                <div class="block-title">
+                                    <h4 class="grey"><i class="icon ion-ios-book-outline"></i>My education</h4>
+                                    <div class="line"></div>
+
+
+                                </div>
+                                <div class="edit-block">
+                                    <form name="education" id="education" class="form-inline">
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="msc">M.S.C</label>
+                                                <input id="msc" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Unversity Name" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="bsc">B.S.C</label>
+                                                <input id="bsc" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Unversity Name" value="" />
+                                            </div>
+                                        </div>
+
+
+                                    </form>
+                                </div>
+                                <div class="block-title">
+                                    <h4 class="grey"><i class="icon ion-ios-briefcase-outline"></i>My Skills</h4>
+
+                                </div>
+                                <div class="edit-block">
+                                    <form name="skill" id="work" class="form-inline">
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="skill">Featured Skills</label>
+                                                <input id="skill" class="form-control input-group-lg" type="text" name="company" title="use coma" placeholder="Analysis, Auto CAD, Budgeting" value="" />
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+                                </div>
+								<!--architech archive start-->
+								<div class="block-title">
+                                    <h4 class="grey"><i class="icon ion-ios-briefcase-outline"></i>Architectural Archive</h4>
+
+                                </div>
+                                <div class="edit-block">
+                                    <form name="archive" id="work" class="form-inline">
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="interior">Interior Work</label>
+                                                <input id="interior" class="form-control input-group-lg" type="text" name="interior" title="Enter interior work details" placeholder="Home, Corporate interior design etc" value="" />
+                                            </div>
+                                        </div>
+										 <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="exterior">Exterior Work</label>
+                                                <input id="exterior" class="form-control input-group-lg" type="text" name="exterior" title="Enter exterior work details" placeholder="Structural Glazing...etc" value="" />
+                                            </div>
+                                        </div>
+										 <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="landscape">Landscape Work</label>
+                                                <input id="landscape" class="form-control input-group-lg" type="text" name="landscape" title="Enter Landscape work details" placeholder="the outdoor spaces of campuses, recreational facilities, businesses, private homes.. etc" value="" />
+                                            </div>
+                                        </div>
+										 <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="special">Special Work</label>
+                                                <input id="special" class="form-control input-group-lg" type="text" name="special" title="Enter Special work details" placeholder="Special work details" value="" />
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+                                </div>
+								
+								<!--architech archive end-->
+								
+								<!--certification start-->
+								
+								<div class="block-title">
+                                    <h4 class="grey"><i class="icon ion-ios-briefcase-outline"></i>Professional Qualification</h4>
+
+                                </div>
+                                <div class="edit-block">
+                                    <form name="work" id="work" class="form-inline">
+                                        <div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <label for="Certification">Certification : 1</label>
+                                                <input id="Certification" class="form-control input-group-lg" type="text" name="Certification" title="Enter Certification" placeholder="Certification name" value="" />
+                                            </div>
+											<div class="form-group col-xs-6">
+                                                <label for="Location">Location</label>
+                                                <input id="Location" class="form-control input-group-lg" type="text" name="Location" title="Enter Location" placeholder="Location" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <label for="Institute ">Institute </label>
+                                                <input id="Institute " class="form-control input-group-lg" type="text" name="Institute " title="Enter Institute " placeholder="designation name" value="Institute" />
+                                            </div>
+											<div class="form-group col-xs-3">
+                                                <label for="designation">From </label>
+                                                <input id="designation" class="form-control input-group-lg" type="text" name="" title="" placeholder="" value="" />
+                                            </div>
+											<div class="form-group col-xs-3">
+                                                <label for="designation">To</label>
+                                                <input id="designation" class="form-control input-group-lg" type="text" name="designation" title="" placeholder="" value="" />
+                                            </div>
+                                        </div>
+										<!--certification 2-->
+										<div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <label for="Certification">Certification : 2</label>
+                                                <input id="Certification" class="form-control input-group-lg" type="text" name="Certification" title="Enter Certification" placeholder="Certification name" value="" />
+                                            </div>
+											<div class="form-group col-xs-6">
+                                                <label for="Location">Location</label>
+                                                <input id="Location" class="form-control input-group-lg" type="text" name="Location" title="Enter Location" placeholder="Location" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <label for="Institute ">Institute </label>
+                                                <input id="Institute " class="form-control input-group-lg" type="text" name="Institute " title="Enter Institute " placeholder="designation name" value="Institute" />
+                                            </div>
+											<div class="form-group col-xs-3">
+                                                <label for="designation">From </label>
+                                                <input id="designation" class="form-control input-group-lg" type="text" name="" title="" placeholder="" value="" />
+                                            </div>
+											<div class="form-group col-xs-3">
+                                                <label for="designation">To</label>
+                                                <input id="designation" class="form-control input-group-lg" type="text" name="designation" title="" placeholder="" value="" />
+                                            </div>
+                                        </div>
+										<!--certification 2-->
+										
+                                    </form>
+                                </div>
+								<!--certification end-->
+
+                                <div class="block-title">
+                                    <h4 class="grey"><i class="icon ion-ios-briefcase-outline"></i>Work Experiences</h4>
+
+                                </div>
+                                <div class="edit-block">
+                                    <form name="work" id="work" class="form-inline">
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="company">Company Name</label>
+                                                <input id="company" class="form-control input-group-lg" type="text" name="company" title="Enter Company" placeholder="Company name" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12">
+                                                <label for="designation">Designation</label>
+                                                <input id="designation" class="form-control input-group-lg" type="text" name="designation" title="Enter designation" placeholder="designation name" value="Exclusive Author" />
+                                            </div>
+                                        </div>
+
+
+
+                                        <button class="btn btn-primary">Save Changes</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 static">
+
+
+
+                            <div class="suggestions" id="sticky-sidebar">
+                                <h4 class="grey">Who to Follow</h4>
+                                <div class="follow-user">
+                                    <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm pull-left" />
+                                    <div>
+                                        <h5><a href="../404.html">Nadia</a></h5>
+                                        <a href="#" class="text-green">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="follow-user">
+                                    <img src="images/users/user-12.jpg" alt="" class="profile-photo-sm pull-left" />
+                                    <div>
+                                        <h5><a href="../404.html">Hasib</a></h5>
+                                        <a href="#" class="text-green">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="follow-user">
+                                    <img src="images/users/user-13.jpg" alt="" class="profile-photo-sm pull-left" />
+                                    <div>
+                                        <h5><a href="../404.html">Hasan</a></h5>
+                                        <a href="#" class="text-green">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="follow-user">
+                                    <img src="images/users/user-14.jpg" alt="" class="profile-photo-sm pull-left" />
+                                    <div>
+                                        <h5><a href="../404.html">Moni</a></h5>
+                                        <a href="#" class="text-green">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="follow-user">
+                                    <img src="images/users/user-15.jpg" alt="" class="profile-photo-sm pull-left" />
+                                    <div>
+                                        <h5><a href="../404.html">Azrin</a></h5>
+                                        <a href="#" class="text-green">follow</a>
+
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="follow-user" style="width: 250px; border-top: 1px solid gray;">
+                                    <br>
+
+                                    <a href="">Help Center</a> | <a href="">About</a> | <a href="">Privacy & Terms</a> | <a href="">Faq</a>
+                                    | <a href="">Business Services</a>
+
+                                </div>
+                                <div class="follow-user" style="width: 300px;">
+                                    <p><b>Elite Club</b>  &nbsp;&nbsp;&nbsp; Corporation © 2017</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer
+        ================================================= -->
+
+
+        <!--preloader-->
+
+        <!-- Scripts
+        ================================================= -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky-kit.min.js"></script>
+        <script src="js/jquery.scrollbar.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+    <!-- Mirrored from thunder-team.com/friend-finder/edit-profile-work-edu.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2017 04:17:46 GMT -->
+</html>

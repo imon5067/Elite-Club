@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is social network html5 template available in themeforest......" />
+        <meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+        <meta name="robots" content="index, follow" />
+        <title>Elite-Club</title>
+
+        <!-- Stylesheets
+        ================================================= -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/ionicons.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link href="css/emoji.css" rel="stylesheet">
+
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+
+        <!--Favicon-->
+        <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+
+
+
+        <style>
+
+            * {box-sizing: border-box}
+
+
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family: 'Lato', sans-serif;
+            }
+
+            /* Style tab links */
+            .tablink {
+                background-color: #8A0F0F;
+                color: white;
+                float: left;
+                border: none;
+                outline: none;
+                font-family: 'Lato', sans-serif; 
+                cursor: pointer;
+                padding: 12px 15px;
+                font-size: 17px;
+                width: 33%;
+            }
+
+            .tablink:hover {
+                background-color:whitesmoke;
+                font-family: 'Lato', sans-serif;
+                color:#8A0F0F;
+            }
+
+
+            .tabcontent {
+                color: black;
+                display: none;
+                padding: 100px 20px;
+                height: 100%;
+            }
+
+            #project {background-color: white;}
+            #News {background-color: white;}
+            #Contact {background-color: white;}
+            #About {background-color: white;}
+        </style>
+    </head>
+    <body>
+
+        <!-- Header
+        ================================================= -->
+        <header id="header">
+            <nav class="navbar navbar-default navbar-fixed-top menu">
+                <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html"><img src="elite/eliteccc.png" class="img-responsive" style="margin-top: -20px;"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right main-menu">
+                            <li class="dropdown">
+                                <a href="newsfeed.html">Home</a>
+                                <!--                                <ul class="dropdown-menu newsfeed-home">
+                                                                    <li><a href="index-2.html">Landing Page 1</a></li>
+                                                                    <li><a href="index-register.html">Landing Page 2</a></li>
+                                                                </ul>-->
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="newsfeed.html" >Newsfeed</a>
+                                <!--                                <ul class="dropdown-menu newsfeed-home">
+                                                                    <li><a href="newsfeed.html">Newsfeed</a></li>
+                                                                    <li><a href="newsfeed-people-nearby.html">Poeple Nearly</a></li>
+                                                                    <li><a href="newsfeed-friends.html">My friends</a></li>
+                                                                    <li><a href="newsfeed-messages.html">Chatroom</a></li>
+                                                                    <li><a href="newsfeed-images.html">Images</a></li>
+                                                                    <li><a href="newsfeed-videos.html">Videos</a></li>
+                                                                </ul>-->
+                            </li>
+                            <li class="dropdown">
+                                <a href="timeline.html">Timeline</a>
+                                <!--                                <ul class="dropdown-menu login">
+                                                                    <li><a href="timeline.html">Timeline</a></li>
+                                                                    <li><a href="timeline-about.html">Timeline About</a></li>
+                                                                    <li><a href="timeline-album.html">Timeline Album</a></li>
+                                                                    <li><a href="timeline-friends.html">Timeline Friends</a></li>
+                                                                    <li><a href="edit-profile-basic.html">Edit: Basic Info</a></li>
+                                                                    <li><a href="edit-profile-work-edu.html">Edit: Work</a></li>
+                                                                    <li><a href="edit-profile-interests.html">Edit: Interests</a></li>
+                                                                    <li><a href="edit-profile-settings.html">Account Settings</a></li>
+                                                                    <li><a href="edit-profile-password.html">Change Password</a></li>
+                                                                </ul>-->
+                            </li>
+
+                            <li class="dropdown"><a href="../404">Contact</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right hidden-sm">
+                            <div class="form-group">
+                                <i class="icon ion-android-search"></i>
+                                <input type="text" class="form-control" placeholder="Search friends, photos, videos">
+                            </div>
+                        </form>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <!--Header End-->
+
+        <div id="page-contents">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Newsfeed Common Side Bar Left
+                    ================================================= -->
+                    <div class="col-md-3 static">
+                        <div class="profile-card">
+                            <img src="images/users/user-14.jpg" alt="user" class="profile-photo" />
+                            <h5><a href="../404.html" class="text-white">Urmi</a></h5>
+                            <a href="" class="text-white"><i class="ion ion-android-person-add"></i>Architect</a>
+                        </div><!--profile card ends-->
+                        <ul class="nav-news-feed">
+                            <li><i class="icon ion-ios-paper"></i><div><a href="../404.html">My Club</a></div></li>
+                            <li><i class="icon ion-ios-people"></i><div><a href="timeline-about.html">Timeline</a></div></li>
+                            <li><i class="icon ion-images"></i><div><a href="edit-profile-basic.html">Edit Profile</a></div></li>
+                            <li><i class="ion-ios-navigate"></i><div><a href="referral_rewards.html">Referral / Rewards</a></div></li>
+                            <li><i class="icon ion-ios-videocam"></i><div><a href="./Logout_user.jsp">Log out</a></div></li>
+                        </ul><!--news-feed links ends-->
+                        <div id="chat-block">
+                            <div class="title">online</div>
+                            <ul class="online-users list-inline">
+                                <li><a href="../404.html" title="Linda Lohan"><img src="images/users/user-2.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Sophia Lee"><img src="images/users/user-3.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="John Doe"><img src="images/users/user-4.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Alexis Clark"><img src="images/users/user-5.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="James Carter"><img src="images/users/user-6.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Robert Cook"><img src="images/users/user-7.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Richard Bell"><img src="images/users/user-8.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Anna Young"><img src="images/users/user-9.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                                <li><a href="../404.html" title="Julia Cox"><img src="images/users/user-10.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                            </ul>
+
+                        </div><!--chat block ends-->
+                    </div>
+                    <div class="col-md-7">
+
+
+
+
+                        <div class="create-post">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-7">
+                                    <div class="form-group">
+                                        <img src="images/users/user-14.jpg" alt="" class="profile-photo-md" />
+                                        <textarea name="texts" id="exampleTextarea" cols="30" rows="1" class="form-control" placeholder="Write what you wish"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-sm-5">
+                                    <div class="tools">
+                                        <span id="fileselector">
+                                            <label class="btn btn-sm" title="Image / Videos" style="border-radius: 20px; border-color:#8A0F0F;" for="upload-file-selector">
+                                                <input id="upload-file-selector" type="file">
+                                                <span><i class=""></i></span> attached file
+                                            </label>
+                                        </span> 
+                                        <button class="btn btn-primary pull-right">Publish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <h3>Point Awarded :- 35</h3>
+                        <br>
+
+                        <button class="tablink" onclick="openPage('project', this, '')" id="defaultOpen">project Reference</button>
+                        <button class="tablink" onclick="openPage('News', this, '')" >Product Reference</button>
+                        <button class="tablink" onclick="openPage('Contact', this, '')">Architect Reference</button>
+
+
+                        <div id="project" class="tabcontent">
+                            <div class="edit-block">
+                                <form name="project" id="project" class="form-inline">
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="pname">Project Name:</label>
+                                            <input id="pname" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Project Name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="solution_requirement">Solution Requirement:</label>
+                                            <input id="solution_requirement" class="form-control input-group-lg" type="text" name="solution_requirement" title="Enter Solution Requirement" placeholder="Solution Requirement" value="" />
+                                        </div>
+                                    </div>
+									 <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="contact_name">Contact Person Name:</label>
+                                            <input id="contact_name" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Contact Name" value="" />
+                                        </div>
+                                    </div>
+									<div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <label for="city"> Designation:</label>
+                                                <input id="city" class="form-control input-group-lg" type="text" name="city" title="Enter Designation" placeholder="Designation" value=""/>
+                                            </div>
+                                            <div class="form-group col-xs-6">
+                                                <label for="country">Mobile Number:</label>
+                                                <input id="country" class="form-control input-group-lg" type="text" name="city" title="Enter Mobile Number" placeholder="Mobile No" value=""/>
+
+                                            </div>
+                                    <!--<div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Mobile_no">Mobile No:</label>
+                                            <input id="Mobile_no" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Mobile No" value="" />
+                                        </div>-->
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Email">Email:</label>
+                                            <input id="Email" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Email" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Remarks">Remarks</label>
+                                            <textarea id="Remarks" name="information" class="form-control" placeholder="Remarks" rows="4" cols="400"></textarea>
+                                        </div>
+                                    </div>
+									 <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Remarks">Upload Project Image :</label><br>
+												<label class="btn btn-sm" title="Image" style="border-radius: 20px; 		 border-color:#8A0F0F;" for="upload-file-selector">
+												<input id="upload-file-selector" type="file">
+												<span><i class=""></i></span>image upload
+												</label>
+                                           
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary">Send</button>
+
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="News" class="tabcontent">
+                            <div class="edit-block">
+                                <form name="product" id="product" class="form-inline">
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="prname">Product Name:</label>
+                                            <input id="prname" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Project Name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="rcontact_name">Contact Name:</label>
+                                            <input id="rcontact_name" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Contact Name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="rMobile_no">Mobile No:</label>
+                                            <input id="rMobile_no" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Mobile No" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="rEmail">Email:</label>
+                                            <input id="rEmail" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Email" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="purchase">purchase Invoice Number:</label>
+                                            <input id="purchase" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="purchase Invoice Number" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Quantity">Product Quantity:</label>
+                                            <input id="Quantity" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Product Quantity" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="rRemarks">Remarks</label>
+                                            <textarea id="rRemarks" name="information" class="form-control" placeholder="Remarks" rows="4" cols="400"></textarea>
+                                        </div>
+                                    </div>
+									 <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Remarks">Upload Product Image :</label><br>
+												<label class="btn btn-sm" title="Image" style="border-radius: 20px; 		 border-color:#8A0F0F;" for="upload-file-selector">
+												<input id="upload-file-selector" type="file">
+												<span><i class=""></i></span>image upload
+												</label>
+                                           
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary">Send</button>
+
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="Contact" class="tabcontent">
+                            <div class="edit-block">
+                                <form name="product" id="product" class="form-inline">
+
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="Architectn">Name:</label>
+                                            <input id="Architectn" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Name:" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="aMobile_no">Mobile No:</label>
+                                            <input id="aMobile_no" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Mobile No" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="aEmail">Email:</label>
+                                            <input id="aEmail" class="form-control input-group-lg" type="text" name="school" title="Enter School" placeholder="Email" value="" />
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="form-group col-xs-12">
+                                            <label for="aRemarks">Remarks</label>
+                                            <textarea id="aRemarks" name="information" class="form-control" placeholder="Remarks" rows="4" cols="400"></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary">Send</button>
+
+
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                        <script type="text/javascript">
+                            function openPage(pageName, elmnt, color) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "";
+                                }
+                                tablinks = document.getElementsByClassName("tablink");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].style.display = "";
+                                }
+                                document.getElementById(pageName).style.display = "block";
+                                elmnt.style.backgroundColor = color;
+
+                            }
+                            // Get the element with id="defaultOpen" and click on it
+                            document.getElementById("defaultOpen").click();
+                        </script>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <!-- Newsfeed Common Side Bar Right
+                    ================================================= -->
+                    <div class="col-md-2 static">
+
+
+
+                        <div class="suggestions"  id="sticky-sidebar">
+                            <h4 class="grey">Who to Follow</h4>
+
+                            <div class="follow-user">
+                                <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm pull-left" />
+                                <div>
+                                    <h5><a href="timeline-about.html">Nadia</a></h5>
+                                    <a href="#" class="text-green">Follow</a>
+
+                                </div>
+                            </div>
+                            <div class="follow-user">
+                                <img src="images/users/user-12.jpg" alt="" class="profile-photo-sm pull-left" />
+                                <div>
+                                    <h5><a href="timeline-about.html">Hasib</a></h5>
+                                    <a href="#" class="text-green">Follow</a>
+                                </div>
+                            </div>
+                            <div class="follow-user">
+                                <img src="images/users/user-13.jpg" alt="" class="profile-photo-sm pull-left" />
+                                <div>
+                                    <h5><a href="timeline-about.html">Hasan</a></h5>
+                                    <a href="#" class="text-green">Follow</a>
+                                </div>
+                            </div>
+                            <div class="follow-user">
+                                <img src="images/users/user-14.jpg" alt="" class="profile-photo-sm pull-left" />
+                                <div>
+                                    <h5><a href="timeline-about.html">Moni</a></h5>
+                                    <a href="#" class="text-green">Follow</a>
+                                </div>
+                            </div>
+                            <div class="follow-user">
+                                <img src="images/users/user-15.jpg" alt="" class="profile-photo-sm pull-left" />
+                                <div>
+                                    <h5><a href="timeline-about.html">Azrin</a></h5>
+                                    <a href="#" class="text-green">follow</a>
+
+                                </div>
+                            </div>
+                            <br>
+                            <div class="follow-user" style="width: 250px; border-top: 1px solid gray;">
+                                <br>
+
+                                <a href="">Help Center</a> | <a href="">About</a> | <a href="">Privacy & Terms</a> | <a href="">Faq</a>
+                                | <a href="">Business Services</a>
+
+                            </div>
+                            <div class="follow-user" style="width: 300px;">
+                                <p><b>Elite Club</b>  &nbsp;&nbsp;&nbsp; Corporation © 2017</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTMXfmDn0VlqWIyoOxK8997L-amWbUPiQ&amp;callback=initMap"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky-kit.min.js"></script>
+        <script src="js/jquery.scrollbar.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+
+</html>
